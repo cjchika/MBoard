@@ -1,0 +1,67 @@
+.mboard__signup {
+	width: 100%;
+	max-width: 480px;
+	background: #EEEEF0;
+	position: absolute;
+	left: 28%;
+	top: 20%;
+	height: auto;
+	overflow: hidden;
+	border-radius: 25px;
+	padding: 3rem;
+
+	background: -moz-linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(238, 238, 240, 1) 100%);
+	background: -webkit-linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(238, 238, 240, 1) 100%);
+	background: -o-linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(238, 238, 240, 1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#EEEEF0', endColorstr='#FFFFFF', GradientType=1);
+	background: -ms-linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(238, 238, 240, 1) 100%);
+	background: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(238, 238, 240, 1) 100%);
+}
+
+.mboard__signup h3 {
+	font-family: var(--font-family);
+	font-size: 1.6rem;
+	text-align: center;
+	margin-bottom: 2.5rem;
+}
+
+.mboard__signup p {
+	font-family: var(--font-family);
+	text-align: center;
+}
+
+.mboard__signup-form {
+	display: flex;
+	flex-direction: column;
+}
+
+.mboard__signup-form form {
+	display: flex;
+	flex-direction: column;
+}
+
+.mboard__signup-form input {
+	font-family: var(--font-family);
+	font-size: 1.2rem;
+	padding: 0.8rem;
+	margin-bottom: 1.2rem;
+	border: solid 1.5px #9594E6;
+	border-radius: 10px;
+	outline: none;
+}
+
+.mboard__signup-form input:focus{
+	border: 2px solid #7472eb;
+}
+
+.mboard__signup-form button {
+	font-family: var(--font-family);
+	font-size: 1.2rem;
+	padding: 0.8rem;
+	margin-bottom: 1.2rem;
+	background-color: #9594E6;
+	color: #fff;
+	border-radius: 10px;
+	border: none;
+	cursor: pointer;
+}
