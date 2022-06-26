@@ -1,4 +1,5 @@
 import React from "react";
+import { RiMenuUnfoldFill, RiCloseLine } from 'react-icons/ri'
 import MLogo from "../../assets/MBoard.svg";
 
 import "./navbar.css";
@@ -11,7 +12,7 @@ const Navbar = () => {
 			</div>
 			<div className="mboard__navbar-links">
 				<ul>
-					<li id="signin"><a href="google.com">Sign in</a></li>
+					<li id="signin"><a href="google.com">Login</a></li>
 					<li id="signup"><a href="google.com">Sign up</a></li>
 				</ul>
 			</div>

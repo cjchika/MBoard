@@ -12,11 +12,11 @@ const Signup = () => {
 					<input placeholder="Enter email" type="email" />
 
 					<label htmlFor="password" /> 
-					<input placeholder="Enter password" type="password" />
+					<input placeholder="Enter password" type="password"/>
 
-					<button type="button">Sign in</button>
+					<button type="button">Login </button>
 				</form>
-				<p>Don't have an account yet? <strong><a href="google.com">Sign up</a></strong></p>
+				<p>Don't have an account? <strong><a href="google.com">Sign up</a></strong></p>
 			</div>
     </div>
   );

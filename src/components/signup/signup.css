@@ -3,7 +3,7 @@
 	max-width: 480px;
 	background: #EEEEF0;
 	position: absolute;
-	left: 28%;
+	left: 30%;
 	top: 20%;
 	height: auto;
 	overflow: hidden;
@@ -59,9 +59,39 @@
 	font-size: 1.2rem;
 	padding: 0.8rem;
 	margin-bottom: 1.2rem;
-	background-color: #9594E6;
+	background-color: #7472eb;
 	color: #fff;
 	border-radius: 10px;
 	border: none;
 	cursor: pointer;
+}
+
+@media screen and (max-width: 1000px) {
+	.mboard__signup {
+		width: 100%;
+		left: 22%;
+	}
+}
+
+@media screen and (max-width: 700px) {
+	.mboard__signup {
+		width: 80%;
+		left: 10%;
+		top: 20%;
+		padding: 2rem;
+	}
+
+	.mboard__signup h3 {
+		font-size: 1rem;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	.mboard__signup {
+		width: 80%;
+		margin: 2rem;
+		padding: 2rem;
+		left: 4%;
+		top: 20%;
+	}
 }
