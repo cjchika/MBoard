@@ -1,10 +1,14 @@
 import React from 'react'
+import Home from './components/Homepage/Home';
+
 import './App.css';
+import Navbar from './components/navbar/Navbar';
 
 function App() {
   return (
     <div className="App">
-      <h1>MBoard</h1>
+      <Home />
+      <Navbar/>
     </div>
   );
 }

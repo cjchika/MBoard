@@ -1,0 +1,44 @@
+.mboard__navbar {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+
+	padding: 2rem 6rem;
+}
+
+.mboard__navbar-logo {
+	margin-right: 2rem;
+}
+
+.mboard__navbar-logo img {
+	width: 150px;
+	height: auto;
+}
+
+.mboard__navbar-links ul{
+	display: flex;
+	flex-direction: row;
+	list-style: none;
+}
+
+.mboard__navbar-links li{
+	color: #fff;
+	font-family: var(--font-family);
+	font-weight: 800;
+	font-size: 18px;
+	margin: 0 1rem;
+}
+
+#signin {
+	border: solid 1px #9594E6;
+	padding: 5px 20px;
+	border-radius: 20px;
+}
+
+#signup {
+	background-color: #9594E6;
+	border: solid 1px #9594E6;
+	padding: 5px 20px;
+	border-radius: 20px;
+}
