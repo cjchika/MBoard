@@ -1,5 +1,5 @@
-import React from 'react'
-import './home.css'
+import React from 'react';
+import './home.css';
 
 import Header from '../../assets/home.jpg'
 
@@ -11,4 +11,4 @@ const Home = () => {
   )
 }
 
-export default Home
+export default Home;
